@@ -2,6 +2,8 @@
 
 This repository provides a development container configuration for working with Typst documents in Visual Studio Code. It includes all necessary tools and extensions for a productive Typst development experience.
 
+English | [简体中文](README_zh.md)
+
 ## Features
 
 - Full Typst support with latest version installed
