@@ -1,0 +1,31 @@
+{
+    "name": "Typst Development Environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "myriad-dreamin.tinymist",
+                "draivin.hsnips",
+                "saoudrizwan.claude-dev",
+                "github.copilot",
+                "mindpathtechnologylimited.code-error-lens"
+
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "kavod-io.vscode-typst-formatter",
+                "typst-lsp.experimentalFormatterSupport": true
+            }
+        }
+    },
+    "remoteUser": "vscode",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installZsh": true,
+            "installOhMyZsh": true,
+            "upgradePackages": true
+        }
+    }
+}
